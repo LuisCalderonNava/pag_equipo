@@ -5,8 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>catalogo martin</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .columna {
+            float: left;
+            width: 33%;
+            padding-right: 5px;
+        }
+
+        .fila::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        img {
+            /* Para que sea responsiva */
+            width: 100%;
+        }
+        * {
+				margin:0px;
+				padding:0px;
+			}
+         ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #FF9F29;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #FFDCAE;
+        }
+			
+        
+    </style>
 </head>
-<body>
-    
+<body bgcolor="gray">
+    </div><br><br><br><br>
+    <div class="fila">
+        <div class="columna">
+            <img id="foto" src="img2.webp" width="100" height="350">
+            <center>
+            <h1>vestido lunares elegantes</h1>
+            <h1>$145</h1>
+            </center>
+        </div>
+        <div class="columna">
+            <img id="foto" src="img3.webp" width="100" height="350">
+            <center>
+            <h1>Blazer unicolor de cuello</h1>
+            <h1>$316</h1>
+            </center>
+        </div>
+        <div class="columna">
+            <img id="foto" src="img4.webp" width="100" height="350">
+            <center>
+            <h1>Cárdigan patrón seta</h1>
+            <h1>$499</h1>
+            </center>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="columna">
+            <img id="foto" src="img5.webp" width="100" height="350">
+            <center>
+            <h1>camisa casual hombre</h1>
+            <h1>$404</h1>
+            </center>
+        </div>
+        <div class="columna">
+            <img id="foto" src="img6.webp" width="100" height="350">
+            <center>
+            <h1>chaqueta color solido vino</h1>
+            <h1>$385</h1>
+            </center>
+        </div>
+        <div class="columna">
+            <img id="foto" src="img7.jpg" width="100" height="350">
+            <center>
+            <h1>pantalon casual negro</h1>
+            <h1>$269</h1>
+            </center>
+        </div>
+    </div>
 </body>
 </html>
